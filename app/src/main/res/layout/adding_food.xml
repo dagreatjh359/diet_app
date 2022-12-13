@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".ADD_FOOD"
+    android:background="@drawable/img_1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/enter_meal_title"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/tenada"
+            android:gravity="center"
+            android:text="@string/enter_meal"
+            android:textColor="@color/black"
+            android:textSize="35sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/select_image"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="@font/tenada"
+                android:text="@string/select_image_txt"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/photo_add"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/button_round"
+                android:fontFamily="@font/tenada"
+                android:shadowColor="@color/white"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="@string/photo_add_button"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/black"
+                android:textColorLink="@color/black"
+                android:textSize="35sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="211dp"
+                android:layout_height="142dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/food_icon"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.504"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.075"
+                tools:ignore="ImageContrastCheck"
+                tools:srcCompat="@tools:sample/avatars" />
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="206dp"
+                android:layout_height="142dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/food_icon2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.504"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.075"
+                tools:ignore="ImageContrastCheck"
+                tools:srcCompat="@tools:sample/avatars" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="40dp">
+
+            <EditText
+                android:id="@+id/food1_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autofillHints="no"
+                android:ems="10"
+                android:hint="@string/enter_food_name"
+                android:inputType="text"
+                android:textColor="@color/cardview_dark_background" />
+
+            <EditText
+                android:id="@+id/food1_calorie"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:autofillHints="no"
+                android:ems="10"
+                android:hint="@string/enter_food_calorie"
+                android:inputType="text"
+                android:textColor="@color/cardview_dark_background" />
+
+            <EditText
+                android:id="@+id/food1_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autofillHints="no"
+                android:ems="10"
+                android:hint="@string/enter_food_quantity"
+                android:inputType="text"
+                android:textColor="@color/cardview_dark_background" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="40dp">
+
+            <EditText
+                android:id="@+id/food2_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autofillHints="no"
+                android:ems="10"
+                android:hint="@string/enter_food_name"
+                android:inputType="text"
+                android:textColor="@color/cardview_dark_background" />
+
+            <EditText
+                android:id="@+id/food2_calorie"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:autofillHints="no"
+                android:ems="10"
+                android:hint="@string/enter_food_calorie"
+                android:inputType="text"
+                android:textColor="@color/cardview_dark_background" />
+
+            <EditText
+                android:id="@+id/food2_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autofillHints="no"
+                android:ems="10"
+                android:hint="@string/enter_food_quantity"
+                android:inputType="text"
+                android:textColor="@color/cardview_dark_background" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="40dp">
+
+            <EditText
+                android:id="@+id/food3_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autofillHints="no"
+                android:ems="10"
+                android:hint="@string/enter_food_name"
+                android:inputType="text"
+                android:textColor="@color/cardview_dark_background" />
+
+            <EditText
+                android:id="@+id/food3_calorie"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:autofillHints="no"
+                android:ems="10"
+                android:hint="@string/enter_food_calorie"
+                android:inputType="text"
+                android:textColor="@color/cardview_dark_background" />
+
+            <EditText
+                android:id="@+id/food3_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autofillHints="no"
+                android:ems="10"
+                android:hint="@string/enter_food_quantity"
+                android:inputType="text"
+                android:textColor="@color/cardview_dark_background" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/title_for_map"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/tenada"
+            android:text="@string/title_location_map"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/map_open"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="30dp"
+                android:src="@drawable/map_icon"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:background="@color/white">
+            </ImageButton>
+
+            <TextView
+                android:id="@+id/location"
+                android:layout_width="260dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/human_bumsuk"
+                android:textSize="20sp"
+                android:ems="10"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/date_creation"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/tenada"
+            android:text="@string/date_of_creation"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="20sp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/calender_open"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="30dp"
+                android:src="@drawable/calender_icon"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:background="@color/white">
+            </ImageButton>
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="260dp"
+                android:layout_height="match_parent"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/human_bumsuk"
+                android:layout_marginStart="80dp"
+                android:ems="10"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/review"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/tenada"
+            android:text="@string/food_review"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="20sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="166dp"
+            android:inputType="textMultiLine"
+            android:lines="5"
+            android:hint="@string/review"
+            android:gravity="top"
+            android:ems="10"
+            android:fontFamily="@font/human_bumsuk"
+            android:textSize="20sp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/review_border"/>
+
+        <Button
+            android:id="@+id/add_food"
+            android:layout_width="145dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="40dp"
+            android:onClick="addFoods"
+            android:shadowColor="@color/white"
+            android:fontFamily="@font/tenada"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="@string/add_food_button"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/black"
+            android:textColorLink="@color/white"
+            tools:ignore="UsingOnClickInXml" />
+    </LinearLayout>
+
+</ScrollView>

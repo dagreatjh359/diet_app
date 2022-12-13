@@ -1,0 +1,28 @@
+<resources>
+    <string name="title">식사입력</string>
+    <string name="Date">Date</string>
+    <string name="Place">Meal Place</string>
+    <string name="FoodName">Food Name</string>
+    <string name="FoodAmount">Food Amount</string>
+    <string name="Review">Food Review</string>
+    <string name="photo_add_button">+</string>
+    <string name="add_food_button">ADD FOOD</string>
+    <string name="todo">TODO</string>
+    <string name="enter_meal">어떤식사를 드셨나요?</string>
+    <string name="select_image_txt">이미지를 선택하세요!</string>
+    <string name="enter_food_name">음식이름</string>
+    <string name="enter_food_calorie">칼로리</string>
+    <string name="enter_food_quantity">개수</string>
+    <string name="title_location_map">어디서 드셨나요?</string>
+    <string name="adding_food">add_food</string>
+    <string name="date_of_creation">언제 드셨나요?</string>
+    <string name="food_review">짧은 평을 써주세요!</string>
+    <string name="review">평을 작성하세요</string>
+    <string name="title_activity_location">location</string>
+    <string name="save_location">위치 저장</string>
+    <string name="app_name">뭘먹었수꽈</string>
+    <string name="button2">+</string>
+    <string name="textview">새로운 식사는 바로 여기에!!</string>
+    <string name="button">>> 조회하기!! </string>
+    <string name="List_from_date">List_from_date</string>
+</resources>
